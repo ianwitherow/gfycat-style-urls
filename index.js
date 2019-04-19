@@ -1,7 +1,7 @@
 const adjectives = require('./adjectives'),
 	animals = require('./animals');
 
-module.exports = {
+export default {
 	generateCombination(numAdjectives, delimiter, capitalizeFirstLetter) {
 		let combination = '';
 		const animal = animals[Math.floor(Math.random() * animals.length)];
